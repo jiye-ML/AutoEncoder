@@ -1,8 +1,7 @@
-import tensorflow as tf
 import time
 from tensorflow.examples.tutorials.mnist import input_data
-import ae_tools as tools
-from ops import *
+from Tools import ae_tools as tools
+from Tools.ops import *
 
 
 class VariationalAutoEncoder:

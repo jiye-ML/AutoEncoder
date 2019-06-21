@@ -7,7 +7,7 @@ import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 import time
 
-import ae_tools as tool
+from Tools import ae_tools as tool
 
 
 class AdditiveGaussianNoiseAutoencoder(object):
